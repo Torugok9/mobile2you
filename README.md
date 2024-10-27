@@ -2,10 +2,6 @@
 
 API desenvolvida em Ruby on Rails para gerenciamento de filmes, com suporte para upload de arquivos CSV e diversos filtros para recuperação de dados.
 
-## Rodar o Projeto
-
-Para iniciar o projeto em sua máquina local, siga as instruções abaixo.
-
 ### Pré-requisitos
 
 - **Ruby** e **Rails** instalados.
