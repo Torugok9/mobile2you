@@ -1,0 +1,1 @@
+json.extract! movie, :id, :title, :genre, :director, :cast, :country, :date_added, :release_year, :rating, :duration, :listed_in, :description

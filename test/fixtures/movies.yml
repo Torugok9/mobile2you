@@ -1,0 +1,31 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  show_id: s898
+  genre: TV Show
+  title: O Lobo de Wall Street
+  director: Martin Scorsese
+  cast: TV
+  country: Estados Unidos
+  string: Baseado em uma história real
+  date_added: "2020-10-02"
+  release_year: "2016"
+  rating: 5
+  duration: 3
+  listed_in: all
+  description: lobo
+
+two:
+  show_id: s402
+  genre: Movie
+  title: A Teoria de Tudo
+  director: James Marsh
+  cast: Eddie Redmayne, Felicity Jones
+  country: Reino Unido
+  string: Baseado em uma história real
+  date_added: "2020-10-01"
+  release_year: "2015"
+  rating: 4
+  duration: 2
+  listed_in: Biografia, Drama
+  description: A história inspiradora de Stephen Hawking e sua luta contra a doença enquanto faz descobertas revolucionárias.
