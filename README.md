@@ -26,14 +26,19 @@ API desenvolvida em Ruby on Rails para upload de filmes, com suporte para upload
 
 ### ENDPOINTS
 
-1. Upload do CSV de filmes
+1. Upload do CSV de filmes: 
 
+```bash
 POST /api/v1/loadcsv/netflix
+```
 
 Parâmetros: 
   - arquivo CSV com informações dos filmes (chave do parâmetro: netflix).
 
-2. GET /api/v1/movies
+2. Recuperar os filmes cadastrados de maneira ordenada ( por release_year ) ascendente: 
+```bash
+GET /api/v1/movies
+```
 
 O endpoint de filmes também permite as filtragens através da seguinte forma: 
 GET /api/v1/movies?parametro=valor
