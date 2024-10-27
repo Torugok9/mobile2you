@@ -1,33 +1,63 @@
-# README
+# Projeto Rails - Sistema de Filmes
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Este projeto é uma API desenvolvida em Ruby on Rails para gerenciamento de filmes, com suporte para upload de arquivos CSV e diversos filtros para recuperação de dados.
 
-Things you may want to cover:
+## Rodar o Projeto
 
-* Ruby version
+Para iniciar o projeto em sua máquina local, siga as instruções abaixo.
 
-* System dependencies
+### Pré-requisitos
 
-* Configuration
+- **Ruby** e **Rails** instalados.
+- **Bundler** para gerenciar as dependências do projeto.
 
-* Database creation
+### Instalação
 
-* Database initialization
+1. Instale as dependências do projeto:
+   ```bash
+   bundle install
+2. Execute a criação e as migrações do banco:
+  ```bash
+  rails db:create
+  rails db:migrate
+3. Rode o projeto
+  ```bash
+  rails s
 
-* How to run the test suite
+### ENDPOINTS
 
-* Services (job queues, cache servers, search engines, etc.)
+1. Upload do CSV de filmes
 
-* Deployment instructions
+# URL
+POST /api/v1/loadcsv/netflix
 
-* ...
+Parâmetros: 
+  - arquivo CSV com informações dos filmes (chave do parâmetro: netflix).
+
+URL: GET /api/v1/movies
+
+O endpoint de filmes também permite as filtragens através da seguinte forma: 
+GET /api/v1/movies?parametro=valor
+
+Parâmetros para filtrar : 
+  •	genre
+	•	title
+	•	director
+	•	cast
+	•	country
+	•	string
+	•	date_added
+	•	release_year
+	•	rating
+	•	duration
+	•	listed_in
+	•	description
 
 
-### Rodar o projeto: 
-  - instalar as dependências bundle install
-  - rails s
+  ### TESTES
 
-### ENDPOINTS:
-  - upload do CSV: 
-    - api/v1/loadcsv/netflix (enviar csv com a key: "netflix")
+  Para rodar os testes: 
+    ```bash
+    rails test
+    
+
