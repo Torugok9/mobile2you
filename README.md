@@ -16,13 +16,17 @@ Para iniciar o projeto em sua máquina local, siga as instruções abaixo.
 1. Instale as dependências do projeto:
    ```bash
    bundle install
+   ```
 2. Execute a criação e as migrações do banco:
   ```bash
   rails db:create
   rails db:migrate
+  ```
+
 3. Rode o projeto
   ```bash
   rails s
+  ```
 
 ### ENDPOINTS
 
@@ -59,5 +63,5 @@ Parâmetros para filtrar :
   Para rodar os testes: 
     ```bash
     rails test
-    
+    ```
 
