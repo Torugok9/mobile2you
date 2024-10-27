@@ -62,7 +62,7 @@ Parâmetros para filtrar :
     ```
 
 
-### Desafio lógica de programação
+# Desafio lógica de programação
 
 1. Dado um conjunto de caracteres, você precisará extrair os "diamantes" <> e as "areias" . da expressão, e no final exibir a quantidade de diamantes extraídos.
 
