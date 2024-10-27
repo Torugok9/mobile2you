@@ -60,10 +60,10 @@ Parâmetros para filtrar :
 
   ### TESTES UNITÁRIOS
 
-  Para rodar os testes: 
-    ```bash
-    rails test
-    ```
+  Para rodar os testes:
+  ```bash
+  rails test
+  ```
 
 
 # Desafio lógica de programação
