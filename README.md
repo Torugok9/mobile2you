@@ -1,6 +1,6 @@
 # Projeto Rails - Sistema de Filmes
 
-Este projeto é uma API desenvolvida em Ruby on Rails para gerenciamento de filmes, com suporte para upload de arquivos CSV e diversos filtros para recuperação de dados.
+API desenvolvida em Ruby on Rails para gerenciamento de filmes, com suporte para upload de arquivos CSV e diversos filtros para recuperação de dados.
 
 ## Rodar o Projeto
 
