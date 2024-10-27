@@ -28,7 +28,7 @@ API desenvolvida em Ruby on Rails para upload de filmes, com suporte para upload
 
 1. Upload do CSV de filmes
 
-# URL
+### URL
 POST /api/v1/loadcsv/netflix
 
 Parâmetros: 
@@ -54,7 +54,7 @@ Parâmetros para filtrar :
 	•	description
 
 
-  ### TESTES
+  ### TESTES UNITÁRIOS
 
   Para rodar os testes: 
     ```bash
