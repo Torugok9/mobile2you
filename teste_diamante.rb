@@ -21,6 +21,6 @@ def contar_diamantes(expressao)
   diamantes
 end
 
-# Passo 3: Exibir apenas a quantidade de diamantes extraídos
+# Passo 3: Exibir a quantidade de diamantes extraídos
 puts "Quantidade de diamantes extraídos: #{quantidade_areias}"
 puts "Quantidade de areias extraídas: #{contar_diamantes(expressao)}"
